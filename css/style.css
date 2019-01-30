@@ -15,9 +15,7 @@ html, body {
 	padding: 0 2rem;
 }
 
-.container + h4 {
-	color: blue;
-}
+
 
 .clearfix {
 	clear: both;
@@ -55,6 +53,10 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 
+h4 {
+	font-family: "Liberation Mono", monospace;
+	color: blue;
+}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 *
