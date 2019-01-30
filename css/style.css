@@ -15,8 +15,6 @@ html, body {
 	padding: 0 2rem;
 }
 
-
-
 .clearfix {
 	clear: both;
 }
@@ -53,10 +51,6 @@ body { width: 100%;}
 	flex: 1 0 auto;
 }
 
-h4 {
-	font-family: "Liberation Mono", monospace;
-	color: blue;
-}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 *
@@ -67,6 +61,14 @@ h4 {
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+.container {
+	align-items: center;
+	justify-content: center;
+}
 
-
+h1 {
+	font-family: "Liberation Mono", monospace;
+	color: #00fd01;
+	font-size: 30px;
+}
 
