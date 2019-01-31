@@ -100,7 +100,7 @@ body {
 .container > .instructions-wrapper {
 	display: flex;
 	border: 3px solid black;
-	margin: auto 10%;
+	margin: auto 10% 1.5em;
 	height: 10%;
 	width: 80%;
 }
@@ -129,7 +129,39 @@ body {
 
 /** Change background color, alignment, font size, and spacing for A Day in the life... **/
 
-.about-me > .container {
+.about-me {
 	background-color: #0000ff;
 	display: flex;
+	height: 10em;
+	padding-top: 1.5em;
+}
+
+.about-me > .container > img {
+	width: 150px;
+	height: 125px;
+	display: block;
+	border: 1px solid white;
+	padding: 0px;
+	float: left;
+	margin-left: 5em;
+	margin-right: .5em;
+	}
+
+.about-me > .container > h2 {
+	font-size: 12px;
+	width: 575px;
+	display: inline;
+	float: top;
+	color: white;
+}
+
+.about-me > .container > p {
+	font-size: 8px;
+	width: 575px;
+	color: white;
+}
+.about-me > .container > p > span {
+	font-size: 8px;
+	width: 575px;
+	color: yellow;
 }
