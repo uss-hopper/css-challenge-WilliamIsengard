@@ -63,14 +63,17 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+/** Styled header font, size, and padding **/
 header > .container {
 	font-family: "Liberation Mono", monospace;
 	color: #00fd01;
-	text-align: center;
 	background: #333333;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 15%;
+	padding-right: 25%;
 }
+
 h1 {
 	font-size: 25px;
 	display: inline;
@@ -80,25 +83,28 @@ em {
 	font-size: 8px;
 }
 
+/** Set body font to Liberation Mono **/
 body {
 	font-family: "Liberation Mono", monospace;
 }
 
+/** Changed welcome image size and alignment **/
 .container img {
 	 margin: auto 25%;
-	 width: 50%;
-	 height: 50%;
+	 width: 33%;
+	 height: 33%;
 }
 
+/** Added border around Instructions and specified sizing and alignment **/
 .container > .instructions-wrapper {
 	display: flex;
 	border: 2px solid black;
 }
 
-.container > .instructions-wrapper > h2 {
+.container > .instructions-wrapper > .instructions-content > h2 {
 	font-size: 15px;
 }
 
-.container > .instructions-wrapper > ol {
+.container > .instructions-wrapper > .instructions-content > ol {
 	font-size: 12px;
 }
