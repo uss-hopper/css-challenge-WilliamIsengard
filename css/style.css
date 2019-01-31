@@ -90,27 +90,46 @@ body {
 
 /** Changed welcome image size and alignment **/
 .container img {
-	 margin: auto 33%;
-	 width: 33%;
-	 height: 33%;
+	margin: auto 33%;
+	width: 33%;
+	height: 33%;
+	padding: 10px;
 }
 
-/** Added border around Instructions and specified sizing and alignment **/
+/** Added border around Instructions and specified sizing, padding, margin, and alignment of elements **/
 .container > .instructions-wrapper {
 	display: flex;
-	border: 2px solid black;
+	border: 3px solid black;
+	margin: auto 10%;
+	height: 10%;
+	width: 80%;
+}
+
+.container > .instructions-wrapper > .instructions-content {
+	padding: 5px;
 }
 
 .container > .instructions-wrapper > .instructions-content > h2 {
-	font-size: 15px;
+	font-size: 12px;
+	padding: 5px;
+	width: 225px;
 }
 
 .container > .instructions-wrapper > .instructions-content > ol {
-	font-size: 12px;
+	font-size: 8px;
+	width: 225px;
 }
 
-.container > .instructions-wrapper > .instructions-content > img {
-	margin: auto 33%;
-	width: 20%;
-	height: 20%;
+.container > .instructions-wrapper > img {
+	width: 125px;
+	height: 100px;
+	margin-right: 10em;
+	margin-left: 11em;
+}
+
+/** Change background color, alignment, font size, and spacing for A Day in the life... **/
+
+.about-me > .container {
+	background-color: #0000ff;
+	display: flex;
 }
