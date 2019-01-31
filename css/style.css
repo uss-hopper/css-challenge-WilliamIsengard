@@ -81,5 +81,10 @@ em {
 }
 
 body {
+	font-family: "Liberation Mono", monospace;
+}
+
+.instructions-content < img {
 	align-content: center;
+	size: 50%
 }
