@@ -67,11 +67,11 @@ header {
 	color: #00fd01;
 	text-align: center;
 	background: #333333;
-	padding: 10px;
 }
 h1 {
 	font-size: 25px;
 	display: inline;
+	padding: 1em;
 }
 
 em {
