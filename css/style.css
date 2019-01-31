@@ -10,11 +10,12 @@ html, body {
 	box-sizing: border-box;
 }
 
+/****
 .container {
 	margin: 0 auto;
 	padding: 0 2rem;
 }
-
+***/
 .clearfix {
 	clear: both;
 }
@@ -79,8 +80,11 @@ em {
 	font-size: 8px;
 }
 
+body {
+	align-content:center;
+}
+
 /* resize welcome image */
-section > .container img(
-	width: 25%;
-	height: auto;
+.sfooter (
+	align: center;
 )
