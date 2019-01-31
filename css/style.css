@@ -90,10 +90,15 @@ body {
 	 height: 50%;
 }
 
-.instructions-content {
-	margin: auto 25%;
-	width: 25%;
-	height: 25%;
+.container > .instructions-wrapper {
+	display: flex;
+	border: 2px solid black;
+}
+
+.container > .instructions-wrapper > h2 {
 	font-size: 15px;
-	display: inline;
+}
+
+.container > .instructions-wrapper > ol {
+	font-size: 12px;
 }
