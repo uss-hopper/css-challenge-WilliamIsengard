@@ -90,7 +90,7 @@ body {
 
 /** Changed welcome image size and alignment **/
 .container img {
-	 margin: auto 25%;
+	 margin: auto 33%;
 	 width: 33%;
 	 height: 33%;
 }
@@ -107,4 +107,10 @@ body {
 
 .container > .instructions-wrapper > .instructions-content > ol {
 	font-size: 12px;
+}
+
+.container > .instructions-wrapper > .instructions-content > img {
+	margin: auto 33%;
+	width: 20%;
+	height: 20%;
 }
