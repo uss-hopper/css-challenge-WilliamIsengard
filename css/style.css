@@ -84,7 +84,16 @@ body {
 	font-family: "Liberation Mono", monospace;
 }
 
-.instructions-content < img {
-	align-content: center;
-	size: 50%
+.container img {
+	 margin: auto 25%;
+	 width: 50%;
+	 height: 50%;
+}
+
+.instructions-content {
+	margin: auto 25%;
+	width: 25%;
+	height: 25%;
+	font-size: 15px;
+	display: inline;
 }
