@@ -62,18 +62,25 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-header {
+header > .container {
 	font-family: "Liberation Mono", monospace;
 	color: #00fd01;
 	text-align: center;
 	background: #333333;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 h1 {
 	font-size: 25px;
 	display: inline;
-	padding: 1em;
 }
 
 em {
 	font-size: 8px;
 }
+
+/* resize welcome image */
+section > .container img(
+	width: 25%;
+	height: auto;
+)
