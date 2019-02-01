@@ -224,7 +224,7 @@ section:nth-child(5n) > .container > .form-wrapper {
 }
 
 footer {
-	background: black;
+	background: purple;
 	color: white;
 	font-size: 6px;
 	text-align: center;
