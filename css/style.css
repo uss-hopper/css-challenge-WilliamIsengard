@@ -157,7 +157,7 @@ body {
 
 .about-me > .container > p {
 	font-size: 8px;
-	width: 575px;
+	width: 600px;
 	color: white;
 }
 .about-me > .container > p > span {
@@ -215,16 +215,12 @@ section:nth-child(5n) > .container > .form-wrapper {
 	padding-left: 2em;
 	padding-right: 2em;
 	padding-bottom: 2em;
+	display: flex;
+	flex-direction: column;
 	}
 
-section:nth-child(5n) > .container > .form-wrapper {
-	display: flex;
-	justify-content: left;
-	flex-direction: column;
-}
-
 footer {
-	background: purple;
+	background: black;
 	color: white;
 	font-size: 6px;
 	text-align: center;
